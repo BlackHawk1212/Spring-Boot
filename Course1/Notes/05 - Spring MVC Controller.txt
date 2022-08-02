@@ -1,0 +1,3 @@
+What is the View Tier in Spring boot?
+	* View Tier is handled by a framework called Spring MVC
+	* Spring MVC lets you build controllers which map request to responses

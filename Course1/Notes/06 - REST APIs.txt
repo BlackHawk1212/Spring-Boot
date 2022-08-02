@@ -1,0 +1,27 @@
+* RETS API is usually deal with knows as entities or resources we have to identify that first
+  in order to establish the contract for your REST API.
+ 
+* Resources are the things in your domain so in the case of a course API topic there is a resource
+
+* Once you identified the resources you can then look at the reason which the consumers can access
+  the resource using the different HTTP methods.
+
+* In our API we are going to identify three seperate resources we have:
+	> Topic
+	> Course
+	> Lesson
+
+* We have bunch of ways in which you access these resources either to get it or update it.
+
+* Those ways are influenced by the method you are using for accessing them. So the HTTP method influences
+  what you do with these resources but the resource itself is are the constants right there are the
+  entities in your system.
+
+
+Topics:
+
+GET       /topics             Gets all topics
+GET       /topics/id          Gets the topic (Specific)
+POST      /topics             Create a new topic
+PUT       /topics/id          Updates the topic
+DELETE    /topics/id          Deletes the topic

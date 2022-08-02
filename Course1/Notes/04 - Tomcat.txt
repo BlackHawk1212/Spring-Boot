@@ -1,0 +1,6 @@
+### Embedded Tomcat Server ###
+
+* Convenience
+* Servlet Container config is now application config
+* Stand alone application
+* Useful for microservices architecture

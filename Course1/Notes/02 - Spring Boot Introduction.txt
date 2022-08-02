@@ -1,0 +1,35 @@
+### What is Spring Boot? ###
+
+* First word is Spring which is a Framework which lets you write enterprises job application.
+* Second word is Boot which is Bootstrap which is something lets you bootstrap a Spring application
+  from the scratch.
+
+Official Definition - Spring Boot makes it easy to create stand-alone, Production-grade Spring based 
+applications that you can "Just run".
+
+
+### Enter Spring Boot? ###
+
+* Opinionated
+* Convention and Configuration
+* Stand alone
+* Production Ready
+
+
+### Starting Spring Boot ###
+
+* Sets up Default Configuration
+* Starts Spring Application Context
+* Perform Class Path Scan
+* Starts Tomcat Server
+
+
+### Lets add a Controller ###
+
+* A Java class
+* Marked with annotations
+* Has info about
+	* What URL access triggers it?
+	* What method to run when accessed?
+
+

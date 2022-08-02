@@ -1,0 +1,12 @@
+### What is Spring? ###
+
+* Application Framework
+* Programming and Configuration Model
+* Infrastructure Support
+
+### Problems with Spring ###
+
+* Huge Framework
+* Multiple Setup Steps
+* Multiple Configuration Steps
+* Multiple Build and Deploy Steps

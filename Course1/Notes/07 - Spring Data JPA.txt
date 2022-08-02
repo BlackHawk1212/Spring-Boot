@@ -1,0 +1,6 @@
+What is Spring Data JPA?
+	* JPA stands for Java Persistence API.
+	* Which is basically a specification that lets you ORM when you are connecting
+	  to a relational database which is "Object Relational Mapping".
+	* Most of the database we work within an enterprise situation are SQL databases.
+	* SQL database is what's typically referred to as a relational database
