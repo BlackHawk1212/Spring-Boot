@@ -1,0 +1,67 @@
+### AGENDA ###
+
+* Creating a few microservices
+* Having them communicative with each other
+
+
+### Where Do We Start? ###
+
+* Lots of Technologies
+* Lots of patterns
+* Independent concepts
+* Why?
+
+
+    MONOLITH  --- Broken into --->  MICRO SERVICE
+	|                                 |
+	|                                 |
+       \|/                               \|/
+ Complexity hidden               Complexity between
+      within                       microservices
+
+
+QS. What is an example of a pattern and technology? What is the difference?
+
+	* Pattern       ---> Make microservices work well together
+	* Technologies  ---> Libraries and frameworks to solve common problems
+
+
+QS. What is the difference between microservices and web services?
+
+	A microservice is a small, independent, application that performs a highly focused service as well as possible. 
+	A web service is an internet-based interface that makes the “services” of one application available to applications 
+	running on different platforms.
+
+
+### In this Course ###
+
+	* We'll start from scratch
+	* Pick one "set" of technologies - Spring Cloud
+	* Use only what's required
+
+
+### Microservices using ###
+
+	* 3 Microservices are using (See the snapshot)
+
+> Create 3 Spring boot projects
+> Build movie catalog service API
+> Build movie info service API
+> Build ratings data service API
+> Have movie catalog service call the other two services (the naive way)
+> Implement a better way (Service discovery)
+
+
+### How to make a REST call from your code? ###
+
+* Calling REST APIs programatically
+* Using a REST client library
+* Spring Boot comes with a client already in your classpath-RestTemplate
+
+
+### Why Hard Coded URLs are Bad ###
+
+* Changes are required code updates
+* Dynamic URLs in the Cloud
+* Load Balancing
+* Multiple Environments
