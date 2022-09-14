@@ -1,4 +1,4 @@
-package com.javaguides.springbootkafkatutorial.config;
+package com.javaguides.springboot;
 
 import org.apache.kafka.clients.admin.NewTopic;
 import org.springframework.context.annotation.Bean;
@@ -9,9 +9,8 @@ import org.springframework.kafka.config.TopicBuilder;
 public class KafkaTopicConfig {
 
     @Bean
-    public NewTopic javaGuidesTopic(){
-        return TopicBuilder.name("javaguides")
-//                .partitions()                 You can give any number of value to create partitions
+    public NewTopic topic(){
+        return TopicBuilder.name("wikimedia_recentchange")
                 .build();
     }
 
